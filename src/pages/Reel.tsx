@@ -10,7 +10,6 @@ export default function Reel() {
 
       <div>
         <h2 className="font-serif text-2xl font-semibold mb-1">Theatrical Reel</h2>
-        <p className="text-gray-500 text-sm mb-4">Stage performances — drama & musical theatre</p>
         <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
           <iframe
             src="https://player.vimeo.com/video/1157965041?h=06a6dc4d74"

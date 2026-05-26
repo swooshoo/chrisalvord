@@ -17,7 +17,7 @@ export default function Headshots() {
     <div className="max-w-5xl mx-auto px-4 py-12">
       <h1 className="font-serif text-4xl font-bold mb-2">Headshots</h1>
       <p className="text-gray-500 text-sm mb-8 uppercase tracking-widest">
-        Photography by Studio Name
+         
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
