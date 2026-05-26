@@ -5,7 +5,7 @@ export default function Reel() {
         Christopher Alvord
       </h1>
       <p className="text-gold text-sm uppercase tracking-widest mb-10 font-medium">
-        Actor · Singer · Dancer
+        Actor
       </p>
 
       <div>
