@@ -10,7 +10,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 
 // Place resume PDF at /public/resume.pdf
 const RESUME_URL = '/resume.pdf'
-const SHARE_EMAIL = 'agent@agencyname.com'
 const PHONE = '+1-555-000-0000'
 
 export default function Resume() {
