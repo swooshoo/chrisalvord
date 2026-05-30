@@ -2,12 +2,11 @@ import { useState } from 'react'
 
 // Replace these with actual headshot image paths placed in /public/headshots/
 const headshots = [
-  { id: 1, src: '/headshots/headshot-1.jpg', alt: 'Christopher Alvord – casual' },
-  { id: 2, src: '/headshots/headshot-2.jpg', alt: 'Christopher Alvord – suit' },
-  { id: 3, src: '/headshots/headshot-3.jpg', alt: 'Christopher Alvord – dramatic' },
-  { id: 4, src: '/headshots/headshot-4.jpg', alt: 'Christopher Alvord – smiling' },
-  { id: 5, src: '/headshots/headshot-5.jpg', alt: 'Christopher Alvord – commercial' },
-  { id: 6, src: '/headshots/headshot-6.jpg', alt: 'Christopher Alvord – outdoor' },
+  { id: 1, src: '/headshots/headshot-1.jpeg', alt: 'Christopher Alvord – headshot 1' },
+  { id: 2, src: '/headshots/headshot-2.jpeg', alt: 'Christopher Alvord – headshot 2' },
+  { id: 3, src: '/headshots/headshot-3.jpeg', alt: 'Christopher Alvord – headshot 3' },
+  { id: 4, src: '/headshots/headshot-4.jpg', alt: 'Christopher Alvord – headshot 4' },
+  { id: 5, src: '/headshots/headshot-5.jpg', alt: 'Christopher Alvord – headshot 5' },
 ]
 
 export default function Headshots() {
