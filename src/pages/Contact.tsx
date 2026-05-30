@@ -1,3 +1,8 @@
+const MAILTO_SUBJECT = encodeURIComponent('Opportunity Inquiry – Christopher Alvord')
+const MAILTO_BODY = encodeURIComponent(
+  'Hello,\n\nI am reaching out to express my interest in discussing Christopher Alvord for potential opportunities. I would love to connect and explore how he might be a great fit.\n\nPlease let me know a convenient time to speak.\n\nThank you for your time.'
+)
+
 const contacts = [
   {
     role: 'Business Inquiries',
@@ -47,7 +52,7 @@ export default function Contact() {
               <p className="text-xs uppercase tracking-widest text-gold font-medium mb-1">{c.role}</p>
               <p className="font-semibold text-charcoal mb-3">{c.agency}</p>
               <a
-                href={`mailto:${c.email}`}
+                href={`mailto:${c.email}?subject=${MAILTO_SUBJECT}&body=${MAILTO_BODY}`}
                 className="flex items-center gap-2 text-sm text-charcoal hover:text-gold transition-colors"
               >
                 <span>✉</span> {c.email}
