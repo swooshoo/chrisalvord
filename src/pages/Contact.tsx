@@ -1,4 +1,4 @@
-const MAILTO_SUBJECT = encodeURIComponent('Opportunity Inquiry – Christopher Alvord')
+const MAILTO_SUBJECT = encodeURIComponent('Opportunity Inquiry - Christopher Alvord')
 const MAILTO_BODY = encodeURIComponent(
   'Hello,\n\nI am reaching out to express my interest in discussing Christopher Alvord for potential opportunities. I would love to connect and explore how he might be a great fit.\n\nPlease let me know a convenient time to speak.\n\nThank you for your time.'
 )

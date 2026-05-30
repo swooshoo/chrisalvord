@@ -13,7 +13,7 @@ export default function Reel() {
         <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
           <iframe
             src="https://player.vimeo.com/video/1157965041?h=06a6dc4d74"
-            title="Theatrical Reel"
+            title="Demo Reel"
             className="absolute inset-0 w-full h-full rounded-xl shadow-lg"
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
             allowFullScreen
