@@ -6,11 +6,6 @@ const MAILTO_BODY = encodeURIComponent(
 const contacts = [
   {
     role: 'Business Inquiries',
-    agency: 'Engage Artists Agency',
-    email: 'EngageArtistsAgency@gmail.com',
-  },
-  {
-    role: 'Business Inquiries',
     agency: 'Avail Artist Management',
     email: 'AvailArtistManagement@gmail.com',
   },
